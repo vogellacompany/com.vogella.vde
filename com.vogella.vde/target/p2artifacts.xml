@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='com.vogella.vde' version='0.1.0.201311161818'>
+    <properties size='5'>
+      <property name='artifact.size' value='2552'/>
+      <property name='download.size' value='2552'/>
+      <property name='maven-groupId' value='com.vogella.vde'/>
+      <property name='maven-artifactId' value='com.vogella.vde'/>
+      <property name='maven-version' value='0.1.0-SNAPSHOT'/>
+    </properties>
+  </artifact>
+</artifacts>

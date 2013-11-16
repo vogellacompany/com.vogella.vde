@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.vogella.vde' version='0.1.0.201311161818'>
+    <update id='com.vogella.vde' range='[0.0.0,0.1.0.201311161818)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Vde'/>
+      <property name='org.eclipse.equinox.p2.provider' value='VOGELLA'/>
+      <property name='maven-groupId' value='com.vogella.vde'/>
+      <property name='maven-artifactId' value='com.vogella.vde'/>
+      <property name='maven-version' value='0.1.0-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.vogella.vde' version='0.1.0.201311161818'/>
+      <provided namespace='osgi.bundle' name='com.vogella.vde' version='0.1.0.201311161818'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.platform' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.app' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.vogella.vde' version='0.1.0.201311161818'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.vogella.vde;singleton:=true&#xA;Bundle-Version: 0.1.0.201311161818&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
