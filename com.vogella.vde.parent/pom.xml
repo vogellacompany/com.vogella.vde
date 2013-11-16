@@ -15,11 +15,6 @@
 
 	<repositories>
 		<repository>
-			<id>eclipse-luna-local</id>
-			<url>file:///home/hendrik/eclipseVersionen/localbuilds/target/repository</url>
-			<layout>p2</layout>
-		</repository>
-		<repository>
 			<id>eclipse-luna</id>
 			<url>http://download.eclipse.org/releases/luna/</url>
 			<layout>p2</layout>
