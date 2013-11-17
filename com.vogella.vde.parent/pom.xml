@@ -15,8 +15,8 @@
 
 	<repositories>
 		<repository>
-			<id>eclipse-luna</id>
-			<url>http://download.eclipse.org/releases/luna/</url>
+			<id>eclipse-kepler</id>
+			<url>http://download.eclipse.org/releases/kepler/</url>
 			<layout>p2</layout>
 		</repository>
 	</repositories>
