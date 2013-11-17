@@ -21,10 +21,6 @@
 		</repository>
 	</repositories>
 
-	<modules>
-		<module>../com.vogella.voclipse.custom</module>
-		<module>../com.vogella.voclipse.custom.product</module>
-	</modules>
 
 	<build>
 		<plugins>
