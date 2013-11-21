@@ -53,7 +53,7 @@
          </property>
          <property 
                name="cssTheme"
-               value="org.eclipse.e4.ui.css.theme.e4_default">
+               value="com.vogella.voclipse.theme.theme1">
          </property>
          <property
                name="applicationCSSResources" 
