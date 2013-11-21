@@ -29,6 +29,11 @@
    <requires>
       <import plugin="org.eclipse.platform"/>
       <import plugin="org.eclipse.equinox.app"/>
+      <import feature="org.eclipse.pde"/>
+      <import feature="org.eclipse.egit"/>
+      <import feature="org.eclipse.egit.import"/>
+      <import feature="org.eclipse.jgit"/>
+      <import feature="org.eclipse.help"/>
    </requires>
 
    <plugin
