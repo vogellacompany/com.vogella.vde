@@ -42,7 +42,7 @@
          </property>
          <property
           		name="introBrandingImage"
-          		value="product:intro-eclipse.png"/>
+          		value="product:splash.png"/>
          <property
                name="introTitle"
                value="Welcome to the Vogella Development Tools">
