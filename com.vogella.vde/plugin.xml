@@ -3,23 +3,25 @@
 <plugin>
    <extension
          id="vdeProduct"
-         name="VDE IDE"
+         name="Voclipse"
          point="org.eclipse.core.runtime.products">
       <product
             application="org.eclipse.ui.ide.workbench"
-            name="Vogella Development Tools">
+            name="Voclipse">
          <property
                name="preferenceCustomization"
                value="plugin_customization.ini">
          </property>
          <property
                name="appName"
-               value="Vogella VDE">
+               value="Voclipse">
          </property>
+         <!--
          <property
                name="aboutImage"
                value="epp-java-about.png">
          </property>
+         -->
          <property
                name="startupForegroundColor"
                value="C8D5EA">
@@ -36,25 +38,33 @@
                name="aboutText"
                value="Eclipse IDE for Java Developers&#x0A;&#x0A;Version: Luna Release&#x0A;Build id: {0}&#x0A;(c) Copyright Eclipse contributors and others 2000, 2013.  All rights reserved.&#x0A;Visit http://eclipse.org/&#x0A;&#x0A;This product includes software developed by the&#x0A;Apache Software Foundation http://apache.org/">
          </property>
+         <!--
          <property
                name="windowImages"
                value="eclipse.png,eclipse32.png,eclipse48.png">
          </property>
+         -->
          <property
           		name="introBrandingImage"
           		value="product:splash.png"/>
          <property
                name="introTitle"
-               value="Welcome to the Vogella Development Tools">
+               value="Welcome to the Voclipse">
          </property>
          <property
                name="introBrandingImageText"
-               value="Eclipse Project">
+               value="Voclipse Project">
          </property>
+         <property
+				name="cssTheme"
+				value="org.eclipse.e4.ui.css.theme.e4_default">
+		  </property>
+         <!--
          <property 
                name="cssTheme"
                value="com.vogella.voclipse.theme.theme1">
          </property>
+         -->
          <property
                name="applicationCSSResources" 
                value="platform:/plugin/org.eclipse.platform/images/"> 

@@ -34,7 +34,6 @@
       <import feature="org.eclipse.egit.import"/>
       <import feature="org.eclipse.jgit"/>
       <import feature="org.eclipse.help"/>
-      <import feature="com.vogella.voclipse.theme.feature"/>
    </requires>
 
    <plugin
