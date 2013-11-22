@@ -19,13 +19,11 @@
 			<url>http://download.eclipse.org/releases/kepler/</url>
 			<layout>p2</layout>
 		</repository>
-		<!-- 
 		<repository>
 			<id>vogella-theme</id>
 			<url>http://build.vogella.com/p2/HendrikStill-VogellaTheme/lastStable/archive/com.vogella.voclipse.theme.p2updatesite/target/repository/</url>
 			<layout>p2</layout>
 		</repository>
-		 -->
 	</repositories>
 
 
