@@ -34,6 +34,7 @@
       <import feature="org.eclipse.egit.import"/>
       <import feature="org.eclipse.jgit"/>
       <import feature="org.eclipse.help"/>
+      <import feature="org.eclipse.wst.xml_ui.feature"/>
    </requires>
 
    <plugin
