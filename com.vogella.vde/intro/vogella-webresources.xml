@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<introContent>
+	<extensionContent id="comeclipsetipsintro-introExtension"
+		style="css/sample.css" name="Sample Extension" path="webresources/@">
+		<group style-id="content-group" id="comeclipsetipsintro-introLink-group">
+			<link label="Eclipse IDE and Tools" url="http://www.vogella.com/eclipseide.html"
+				id="comeclipseideintro-introLink" style-id="content-link">
+				<text>Learn programming Java and more with Eclipse.</text>
+			</link>
+			<link label="Eclipse RCP/Plug-ins" url="http://www.vogella.com/eclipse.html"
+				id="comeclipsercpintro-introLink" style-id="content-link">
+				<text>Learn programming Java and more with Eclipse.</text>
+			</link>
+		</group>
+	</extensionContent>
+</introContent>
