@@ -14,18 +14,15 @@
 	</properties>
 
 	<repositories>
+		<!-- <repository> <id>eclipse-kepler</id> <url>http://download.eclipse.org/releases/kepler/</url> 
+			<layout>p2</layout> </repository> -->
 		<repository>
 			<id>eclipse-kepler</id>
-			<url>http://download.eclipse.org/releases/kepler/</url>
+			<url>http://download.eclipse.org/releases/luna/</url>
 			<layout>p2</layout>
 		</repository>
-		<!-- 
-		<repository>
-			<id>vogella-theme</id>
-			<url>http://build.vogella.com/p2/HendrikStill-VogellaTheme/lastStable/archive/com.vogella.voclipse.theme.p2updatesite/target/repository/</url>
-			<layout>p2</layout>
-		</repository>
-		 -->
+		<!-- <repository> <id>vogella-theme</id> <url>http://build.vogella.com/p2/HendrikStill-VogellaTheme/lastStable/archive/com.vogella.voclipse.theme.p2updatesite/target/repository/</url> 
+			<layout>p2</layout> </repository> -->
 	</repositories>
 
 
