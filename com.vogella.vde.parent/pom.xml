@@ -30,6 +30,12 @@
 			<url>http://download.eclipse.org/technology/swtbot/releases/latest/</url>
 			<layout>p2</layout>
 		</repository>
+
+		<repository>
+			<id>release-mousefeed</id>
+			<url>http://download.sigasi.com/updates/mousefeed/</url>
+			<layout>p2</layout>
+		</repository>
 	</repositories>
 
 
