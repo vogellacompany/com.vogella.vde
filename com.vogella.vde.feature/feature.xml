@@ -36,36 +36,7 @@
       <import feature="org.eclipse.egit.import"/>
       <import feature="org.eclipse.jgit"/>
       <import feature="org.eclipse.help"/>
-      
-      <!-- XML Editor -->
-      <import feature="org.eclipse.wst.xml_ui.feature"/>
-      <!--
-      <import feature="org.eclipse.e4.core.tools.feature"/>
-      <import feature="org.eclipse.e4.tools.css.editor.feature"/>
-      <import feature="org.eclipse.e4.tools.css.spy.feature"/>
-      <import feature="org.eclipse.e4.tools.e3x.bridge.feature"/>
-   	  <import feature="org.eclipse.e4.tools.event.spy.feature"/>
-   	  <import feature="org.eclipse.e4.tools.orion.css.editor.feature"/>
-   	  -->
-   	  <!--SWTBot -->
-   	  <import feature="org.eclipse.swtbot"/>
-   	  <import feature="org.eclipse.swtbot.eclipse.gef"/>
-   	  <import feature="org.eclipse.swtbot.eclipse"/>
-   	  <import feature="org.eclipse.swtbot.forms"/>
-   	  <import feature="org.eclipse.swtbot.ide"/>
-   	  <import feature="org.eclipse.swtbot.generator.feature"/>
-   	  <!-- EMF SDK -->
-   	  <import feature="org.eclipse.emf.sdk"/>
-   	  <!-- Mousefeed -->
-   	  <import feature="com.mousefeed.feature"/>
-   	  <!-- Nebula -->
-   	  <import feature="org.eclipse.nebula.widgets.nattable.core.feature" />
-   	  <!-- Extension currently does not work because ca.odell.glazedlists is requered
-   	  <import feature="org.eclipse.nebula.widgets.nattable.extension.glazedlists.feature" />
-   	  <import feature="org.eclipse.nebula.widgets.nattable.extension.poi.feature" />
-   	  -->
-   	  <!-- Mylyn Task-Focused  -->
-   	  <import feature="org.eclipse.mylyn.context_feature" />
+
    </requires>
 
    <plugin
