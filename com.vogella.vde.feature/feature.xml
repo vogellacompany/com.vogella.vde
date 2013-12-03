@@ -29,11 +29,15 @@
    <requires>
       <import plugin="org.eclipse.platform"/>
       <import plugin="org.eclipse.equinox.app"/>
+      <!--PDE-->
       <import feature="org.eclipse.pde"/>
+      <!-- EGit -->
       <import feature="org.eclipse.egit"/>
       <import feature="org.eclipse.egit.import"/>
       <import feature="org.eclipse.jgit"/>
       <import feature="org.eclipse.help"/>
+      
+      <!-- XML Editor -->
       <import feature="org.eclipse.wst.xml_ui.feature"/>
       <!--
       <import feature="org.eclipse.e4.core.tools.feature"/>
@@ -43,6 +47,14 @@
    	  <import feature="org.eclipse.e4.tools.event.spy.feature"/>
    	  <import feature="org.eclipse.e4.tools.orion.css.editor.feature"/>
    	  -->
+   	  <!--SWTBot -->
+   	  <import feature="org.eclipse.swtbot"/>
+   	  <import feature="org.eclipse.swtbot.eclipse.gef"/>
+   	  <import feature="org.eclipse.swtbot.eclipse"/>
+   	  <import feature="org.eclipse.swtbot.forms"/>
+   	  <import feature="org.eclipse.swtbot.ide"/>
+   	  <import feature="org.eclipse.swtbot.generator.feature"/>
+   	  <!-- EMF SDK -->
    	  <import feature="org.eclipse.emf.sdk"/>
    </requires>
 

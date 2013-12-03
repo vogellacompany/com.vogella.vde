@@ -23,12 +23,13 @@
 		</repository>
 		<!-- <repository> <id>vogella-theme</id> <url>http://build.vogella.com/p2/HendrikStill-VogellaTheme/lastStable/archive/com.vogella.voclipse.theme.p2updatesite/target/repository/</url> 
 			<layout>p2</layout> </repository> -->
-		<!-- <repository>
-			<id>eclipse-e4-tools</id>
-			<url>http://download.vogella.com/p2/C-MASTER-e4tools-master/lastSuccessful/archive/build/org.eclipse.e4.core.tools.update/target/repository/</url>
+		<!-- <repository> <id>eclipse-e4-tools</id> <url>http://download.vogella.com/p2/C-MASTER-e4tools-master/lastSuccessful/archive/build/org.eclipse.e4.core.tools.update/target/repository/</url> 
+			<layout>p2</layout> </repository> -->
+		<repository>
+			<id>relase-swtbot</id>
+			<url>http://download.eclipse.org/technology/swtbot/releases/latest/</url>
 			<layout>p2</layout>
 		</repository>
-		-->
 	</repositories>
 
 
@@ -51,7 +52,7 @@
 							<ws>gtk</ws>
 							<arch>x86_64</arch>
 						</environment>
- 						<environment>
+						<environment>
 							<os>win32</os>
 							<ws>win32</ws>
 							<arch>x86</arch>
@@ -65,7 +66,7 @@
 							<os>macosx</os>
 							<ws>cocoa</ws>
 							<arch>x86_64</arch>
-						</environment> 
+						</environment>
 					</environments>
 				</configuration>
 			</plugin>
