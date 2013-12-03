@@ -17,17 +17,18 @@
 		<!-- <repository> <id>eclipse-kepler</id> <url>http://download.eclipse.org/releases/kepler/</url> 
 			<layout>p2</layout> </repository> -->
 		<repository>
-			<id>eclipse-kepler</id>
+			<id>eclipse-luna</id>
 			<url>http://download.eclipse.org/releases/luna/</url>
 			<layout>p2</layout>
 		</repository>
 		<!-- <repository> <id>vogella-theme</id> <url>http://build.vogella.com/p2/HendrikStill-VogellaTheme/lastStable/archive/com.vogella.voclipse.theme.p2updatesite/target/repository/</url> 
 			<layout>p2</layout> </repository> -->
-		<repository>
-			<id>eclipse-vex</id>
-			<url>http://download.eclipse.org/vex/milestones/1.1/</url>
+		<!-- <repository>
+			<id>eclipse-e4-tools</id>
+			<url>http://download.vogella.com/p2/C-MASTER-e4tools-master/lastSuccessful/archive/build/org.eclipse.e4.core.tools.update/target/repository/</url>
 			<layout>p2</layout>
 		</repository>
+		-->
 	</repositories>
 
 

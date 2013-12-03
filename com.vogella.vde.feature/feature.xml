@@ -35,7 +35,13 @@
       <import feature="org.eclipse.jgit"/>
       <import feature="org.eclipse.help"/>
       <import feature="org.eclipse.wst.xml_ui.feature"/>
-      <import feature="org.eclipse.vex.feature"/>
+      <import feature="org.eclipse.e4.core.tools.feature"/>
+      <import feature="org.eclipse.e4.tools.css.editor.feature"/>
+      <import feature="org.eclipse.e4.tools.css.spy.feature"/>
+      <import feature="org.eclipse.e4.tools.e3x.bridge.feature"/>
+   	  <import feature="org.eclipse.e4.tools.event.spy.feature"/>
+   	  <import feature="org.eclipse.e4.tools.orion.css.editor.feature"/>
+   	  <import feature="org.eclipse.emf.sdk"/>
    </requires>
 
    <plugin
