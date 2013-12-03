@@ -58,6 +58,12 @@
    	  <import feature="org.eclipse.emf.sdk"/>
    	  <!-- Mousefeed -->
    	  <import feature="com.mousefeed.feature"/>
+   	  <!-- Nebula -->
+   	  <import feature="org.eclipse.nebula.widgets.nattable.core.feature" />
+   	  <import feature="org.eclipse.nebula.widgets.nattable.extension.glazedlists.feature" />
+   	  <import feature="org.eclipse.nebula.widgets.nattable.extension.poi.feature" />
+   	  
+   	  
    </requires>
 
    <plugin
