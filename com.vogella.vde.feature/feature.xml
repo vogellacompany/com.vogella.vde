@@ -64,8 +64,8 @@
    	  <import feature="org.eclipse.nebula.widgets.nattable.extension.glazedlists.feature" />
    	  <import feature="org.eclipse.nebula.widgets.nattable.extension.poi.feature" />
    	  -->
-   	  
-   	  
+   	  <!-- Mylyn Task-Focused  -->
+   	  <import feature="org.eclipse.mylyn.context_feature" />
    </requires>
 
    <plugin
