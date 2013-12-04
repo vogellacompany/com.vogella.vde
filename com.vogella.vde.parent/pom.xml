@@ -87,13 +87,13 @@
 			<id>luna</id>
 			<repositories>
 				<repository>
-					<id>eclipse-luna</id>
-					<url>http://download.eclipse.org/releases/luna/</url>
+					<id>cbi-luna</id>
+					<url>http://download.vogella.com/p2/C-MASTER-eclipse.platform.releng.aggregator/workspace/eclipse.platform.releng.tychoeclipsebuilder/sdk/target/repository/</url>
 					<layout>p2</layout>
 				</repository>
 				<repository>
-					<id>cbi-luna</id>
-					<url>http://download.vogella.com/p2/C-MASTER-eclipse.platform.releng.aggregator/workspace/eclipse.platform.releng.tychoeclipsebuilder/sdk/target/repository/</url>
+					<id>eclipse-luna</id>
+					<url>http://download.eclipse.org/releases/luna/</url>
 					<layout>p2</layout>
 				</repository>
 			</repositories>
