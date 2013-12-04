@@ -86,13 +86,12 @@
 		<profile>
 			<id>luna</id>
 			<repositories>
-				<!-- <repository> <id>eclipse-luna</id> <url>http://download.eclipse.org/releases/luna/</url> 
-					<layout>p2</layout> </repository> -->
 				<repository>
 					<id>cbi-luna</id>
 					<url>http://download.vogella.com/p2/C-MASTER-eclipse.platform.releng.aggregator/workspace/eclipse.platform.releng.tychoeclipsebuilder/sdk/target/repository/</url>
 					<layout>p2</layout>
 				</repository>
+				<!-- 
 				<repository>
 					<id>snapshot-emf</id>
 					<url>http://download.eclipse.org/modeling/emf/emf/updates/2.10milestones/base/S201310280429/</url>
@@ -101,6 +100,12 @@
 				<repository>
 					<id>release-egit</id>
 					<url>http://download.eclipse.org/egit/updates/</url>
+					<layout>p2</layout>
+				</repository>
+				 -->
+				<repository>
+					<id>eclipse-luna</id>
+					<url>http://download.eclipse.org/releases/luna/</url>
 					<layout>p2</layout>
 				</repository>
 
