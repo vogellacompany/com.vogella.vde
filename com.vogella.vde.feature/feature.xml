@@ -39,14 +39,17 @@
       
       <!-- XML Editor -->
       <import feature="org.eclipse.wst.xml_ui.feature"/>
-      <!--
+      
+      <!-- e4 tools -->
       <import feature="org.eclipse.e4.core.tools.feature"/>
       <import feature="org.eclipse.e4.tools.css.editor.feature"/>
       <import feature="org.eclipse.e4.tools.css.spy.feature"/>
+      <!--
       <import feature="org.eclipse.e4.tools.e3x.bridge.feature"/>
+   	  -->
    	  <import feature="org.eclipse.e4.tools.event.spy.feature"/>
    	  <import feature="org.eclipse.e4.tools.orion.css.editor.feature"/>
-   	  -->
+   	  
    	  <!--SWTBot -->
    	  <import feature="org.eclipse.swtbot"/>
    	  <import feature="org.eclipse.swtbot.eclipse.gef"/>
