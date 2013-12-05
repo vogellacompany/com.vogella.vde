@@ -56,8 +56,8 @@
    	  <import feature="org.eclipse.swtbot.generator.feature"/>
    	  <!-- EMF SDK -->
    	  <import feature="org.eclipse.emf.sdk"/>
-   	  <!-- Mousefeed -->
-   	  <import feature="com.mousefeed.feature"/>
+   	  <!-- Mousefeed  Removed due to GPL license  -->
+   	  <!-- <import feature="com.mousefeed.feature"/> -->
    	  <!-- Nebula -->
    	  <import feature="org.eclipse.nebula.widgets.nattable.core.feature" />
    	  <!-- Extension currently does not work because ca.odell.glazedlists is requered
