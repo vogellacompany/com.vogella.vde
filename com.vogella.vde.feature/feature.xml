@@ -66,6 +66,8 @@
    	  -->
    	  <!-- Mylyn Task-Focused  -->
    	  <import feature="org.eclipse.mylyn.context_feature" />
+   	  <!-- Nattable -->
+   	  <import feature="org.eclipse.nebula.widgets.nattable.core.source.feature" />
    </requires>
 
    <plugin
