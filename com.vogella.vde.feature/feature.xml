@@ -68,6 +68,11 @@
    	  <import feature="org.eclipse.mylyn.context_feature" />
    	  <!-- Nattable -->
    	  <import feature="org.eclipse.nebula.widgets.nattable.core.source.feature" />
+   	  <!-- JDT Java 8 Beta-->
+   	  <import feature="org.eclipse.jdt.java8patch"/>
+   	  <import feature="org.eclipse.pde.java8patch"/>
+   	  <import feature="org.eclipse.rcp.java8patch"/>
+   	  
    </requires>
 
    <plugin
