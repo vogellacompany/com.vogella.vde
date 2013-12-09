@@ -46,6 +46,12 @@
 			<layout>p2</layout>
 		</repository>
 
+		<repository>
+			<id>release-easyshell</id>
+			<url>http://pluginbox.sourceforge.net</url>
+			<layout>p2</layout>
+		</repository>
+
 	</repositories>
 
 
@@ -97,7 +103,7 @@
 	<profiles>
 		<profile>
 			<id>kepler</id>
-			<!-- inherits profile from aggregator  -->
+			<!-- inherits profile from aggregator -->
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
@@ -111,7 +117,7 @@
 		</profile>
 		<profile>
 			<id>luna</id>
-			<!-- inherits profile from aggregator  -->
+			<!-- inherits profile from aggregator -->
 			<repositories>
 				<repository>
 					<id>cbi-luna</id>
