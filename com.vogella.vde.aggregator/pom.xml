@@ -3,18 +3,40 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-	
+
 	<groupId>com.vogella.vde</groupId>
 	<artifactId>com.vogella.vde.aggregator</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	<parent>
+		<groupId>com.vogella.vde</groupId>
+		<artifactId>com.vogella.vde.parent</artifactId>
+		<version>0.1.0-SNAPSHOT</version>
+		<relativePath>../com.vogella.vde.parent</relativePath>
+	</parent>
 
 
 	<modules>
 		<module>../com.vogella.vde</module>
 		<module>../com.vogella.vde.feature</module>
-		<module>../com.vogella.vde.product</module>
 	</modules>
-	
+
+	<profiles>
+		<profile>
+			<id>kepler</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<modules>
+				<module>../com.vogella.vde.product</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>luna</id>
+			<modules>
+				<module>../com.vogella.vde.luna.product</module>
+			</modules>
+		</profile>
+	</profiles>
 
 </project>
