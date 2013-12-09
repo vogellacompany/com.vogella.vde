@@ -1,18 +1,13 @@
 instructions.configure=\
 addRepository(type:0,location:http${#58}//download.vogella.com/p2/HendrikStill-CBI-VDE/lastStable/archive/com.vogella.vde.product/target/repository/,name:Vogella Voclipse Update Site - Kepler);\
 addRepository(type:1,location:http${#58}//download.vogella.com/p2/HendrikStill-CBI-VDE/lastStable/archive/com.vogella.vde.product/target/repository/,name:Vogella Voclipse Update Site - Kepler);\
-
 addRepository(type:0,location:http${#58}//download.eclipse.org/releases/kepler/,name: Eclipe Kepler repository);\
 addRepository(type:1,location:http${#58}//download.eclipse.org/releases/kepler/,name: Eclipe Kepler repository);\
-
 addRepository(type:0,location:http${#58}//download.vogella.com/p2/C-MASTER-e4tools-master/lastSuccessful/archive/build/org.eclipse.e4.core.tools.update/target/repository/,name:e4 Tools from vogella.com);\
 addRepository(type:1,location:http${#58}//download.vogella.com/p2/C-MASTER-e4tools-master/lastSuccessful/archive/build/org.eclipse.e4.core.tools.update/target/repository/,name:e4 Tools from vogella.com);\
-
 addRepository(type:0,location:http${#58}//download.eclipse.org/technology/swtbot/releases/latest/,name:SWTBot - eclipse.org);\
 addRepository(type:1,location:http${#58}//download.eclipse.org/technology/swtbot/releases/latest/,name:SWTBot - eclipse.org);\
-
 addRepository(type:0,location:http${#58}//download.eclipse.org/nattable/releases/1.0.1/repository/,name:Nebular - eclipse.org);\
 addRepository(type:1,location:http${#58}//download.eclipse.org/nattable/releases/1.0.1/repository/,name:Nebular - eclipse.org);\
-
 addRepository(type:0,location:http${#58}//dist.springsource.com/snapshot/TOOLS/java8/e43,name: JDT Java 8 Beta - springsource.com);\
 addRepository(type:1,location:http${#58}//dist.springsource.com/snapshot/TOOLS/java8/e43,name: JDT Java 8 Beta - springsource.com);
