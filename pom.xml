@@ -5,15 +5,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.vogella.vde</groupId>
-	<artifactId>com.vogella.vde.aggregator</artifactId>
+	<artifactId>com.vogella.vde.main</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 
 	<modules>
-		<module>com.vogella.vde</module>
-		<module>com.vogella.vde.feature</module>
-		<module>com.vogella.vde.product</module>
+		<module>com.vogella.vde.aggregator</module>
 	</modules>
 	
 
