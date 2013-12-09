@@ -41,12 +41,6 @@
 		</repository>
 
 		<repository>
-			<id>release-findbug</id>
-			<url>http://findbugs.cs.umd.edu/eclipse</url>
-			<layout>p2</layout>
-		</repository>
-
-		<repository>
 			<id>unstable-jdt-java8</id>
 			<url>http://dist.springsource.com/snapshot/TOOLS/java8/e43</url>
 			<layout>p2</layout>
@@ -103,7 +97,7 @@
 	<profiles>
 		<profile>
 			<id>kepler</id>
-			<!-- inherits profile from aggregator -->
+			<!-- inherits profile from aggregator  -->
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
@@ -117,7 +111,7 @@
 		</profile>
 		<profile>
 			<id>luna</id>
-			<!-- inherits profile from aggregator -->
+			<!-- inherits profile from aggregator  -->
 			<repositories>
 				<repository>
 					<id>cbi-luna</id>

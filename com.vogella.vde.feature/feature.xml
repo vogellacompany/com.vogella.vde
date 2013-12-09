@@ -75,8 +75,6 @@
    	  <import feature="org.eclipse.jdt.java8patch"/>
    	  <import feature="org.eclipse.pde.java8patch"/>
    	  <import feature="org.eclipse.rcp.java8patch"/>
-   	  <!-- Findbugs -->
-   	  <import feature="edu.umd.cs.findbugs.plugin.eclipse"/>
    	  
    </requires>
 
