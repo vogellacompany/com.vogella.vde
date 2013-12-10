@@ -34,7 +34,7 @@
          </property>
          <property
                name="aboutText"
-               value="Voclipse the Vogella development environment! product includes software developed by the&#x0A;Apache Software Foundation http://apache.org/">
+               value="voclipse is a product of the vogella GmbH. It is based on the Eclipse SDK and adds a few more customization layers on top of it. See http://www.voclipse.com . product includes software developed by the&#x0A;Apache Software Foundation http://apache.org/">
          </property>
          <!--
          <property
