@@ -16,12 +16,10 @@
                name="appName"
                value="Voclipse">
          </property>
-         <!--
          <property
                name="aboutImage"
-               value="epp-java-about.png">
+               value="icons/vogella.png">
          </property>
-         -->
          <property
                name="startupForegroundColor"
                value="C8D5EA">
