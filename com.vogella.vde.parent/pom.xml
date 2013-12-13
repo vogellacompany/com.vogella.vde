@@ -51,6 +51,12 @@
 			<url>http://pluginbox.sourceforge.net</url>
 			<layout>p2</layout>
 		</repository>
+		
+		<repository>
+			<id>release-chrome-theme</id>
+			<url>https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite</url>
+			<layout>p2</layout>
+		</repository>
 
 	</repositories>
 

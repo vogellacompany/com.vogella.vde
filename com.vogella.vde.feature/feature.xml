@@ -29,57 +29,27 @@
    <requires>
       <import plugin="org.eclipse.platform"/>
       <import plugin="org.eclipse.equinox.app"/>
-      <!--PDE-->
       <import feature="org.eclipse.pde"/>
-      <!-- EGit -->
       <import feature="org.eclipse.egit"/>
       <import feature="org.eclipse.egit.import"/>
       <import feature="org.eclipse.jgit"/>
       <import feature="org.eclipse.help"/>
-      
-      <!-- XML Editor -->
       <import feature="org.eclipse.wst.xml_ui.feature"/>
-      
-      <!-- e4 tools -->
-      <import feature="org.eclipse.e4.core.tools.feature"/>
-      <import feature="org.eclipse.e4.tools.css.editor.feature"/>
-      <import feature="org.eclipse.e4.tools.css.spy.feature"/>
-      <!--
-      <import feature="org.eclipse.e4.tools.e3x.bridge.feature"/>
-   	  -->
-   	  <import feature="org.eclipse.e4.tools.event.spy.feature"/>
-   	  <import feature="org.eclipse.e4.tools.orion.css.editor.feature"/>
-   	  
-   	  <!--SWTBot -->
-   	  <import feature="org.eclipse.swtbot"/>
-   	  <import feature="org.eclipse.swtbot.eclipse.gef"/>
-   	  <import feature="org.eclipse.swtbot.eclipse"/>
-   	  <import feature="org.eclipse.swtbot.forms"/>
-   	  <import feature="org.eclipse.swtbot.ide"/>
-   	  <import feature="org.eclipse.swtbot.generator.feature"/>
-   	  <!-- EMF SDK -->
-   	  <import feature="org.eclipse.emf.sdk"/>
-   	  <!-- Mousefeed  Removed due to GPL license  -->
-   	  <!-- <import feature="com.mousefeed.feature"/> -->
-   	  <!-- Nebula -->
-   	  <import feature="org.eclipse.nebula.widgets.nattable.core.feature" />
-   	  <!-- Extension currently does not work because ca.odell.glazedlists is requered
-   	  <import feature="org.eclipse.nebula.widgets.nattable.extension.glazedlists.feature" />
-   	  <import feature="org.eclipse.nebula.widgets.nattable.extension.poi.feature" />
-   	  -->
-   	  <!-- Mylyn Task-Focused  -->
-   	  <import feature="org.eclipse.mylyn.context_feature" />
-   	  <!-- Nattable -->
-   	  <import feature="org.eclipse.nebula.widgets.nattable.core.source.feature" />
-   	  <!-- JDT Java 8 Beta-->
-   	  <import feature="org.eclipse.jdt.java8patch"/>
-   	  <import feature="org.eclipse.pde.java8patch"/>
-   	  <import feature="org.eclipse.rcp.java8patch"/>
-   	  <!-- m2e -->
-   	  <import feature="org.eclipse.m2e.feature"/>
-   	  <!-- easyshell -->
-   	  <import feature="com.tetrade.eclipse.plugins.easyshell.feature"/>
-   	  
+      <import feature="org.eclipse.swtbot"/>
+      <import feature="org.eclipse.swtbot.eclipse.gef"/>
+      <import feature="org.eclipse.swtbot.eclipse"/>
+      <import feature="org.eclipse.swtbot.forms"/>
+      <import feature="org.eclipse.swtbot.ide"/>
+      <import feature="org.eclipse.swtbot.generator.feature"/>
+      <import feature="org.eclipse.emf.sdk"/>
+      <import feature="org.eclipse.nebula.widgets.nattable.core.feature"/>
+      <import feature="org.eclipse.mylyn.context_feature"/>
+      <import feature="org.eclipse.nebula.widgets.nattable.core.source.feature"/>
+      <import feature="org.eclipse.jdt.java8patch"/>
+      <import feature="org.eclipse.pde.java8patch"/>
+      <import feature="org.eclipse.rcp.java8patch"/>
+      <import feature="org.eclipse.m2e.feature"/>
+      <import feature="com.tetrade.eclipse.plugins.easyshell.feature"/>
    </requires>
 
    <plugin
