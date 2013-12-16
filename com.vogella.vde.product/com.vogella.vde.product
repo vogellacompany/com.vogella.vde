@@ -38,7 +38,7 @@
       <feature id="com.vogella.vde.feature"/>
       <feature id="org.eclipse.pde"/>
       <feature id="org.eclipse.egit"/>
-      <feature id="org.eclipse.egit.import"/>
+      <!--<feature id="org.eclipse.egit.import"/> -->
       <feature id="org.eclipse.jgit"/>
       <feature id="org.eclipse.help"/>
       <feature id="org.eclipse.wst.xml_ui.feature"/>
