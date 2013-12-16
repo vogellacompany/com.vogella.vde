@@ -28,7 +28,6 @@
    </vm>
 
    <plugins>
-      <plugin id="com.vogella.vde"/>
    </plugins>
 
    <features>
@@ -38,6 +37,8 @@
       <feature id="org.eclipse.e4.tools.css.spy.feature" version="0.14.0.v20130814-1230"/>
       <feature id="org.eclipse.e4.tools.event.spy.feature" version="0.15.0.v20131124-2209"/>
       <feature id="org.eclipse.e4.tools.orion.css.editor.feature" version="0.15.0.v20131001-2032"/>
+      <feature id="org.eclipse.jdt"/>
+      <feature id="org.eclipse.platform"/>
    </features>
 
    <configurations>
