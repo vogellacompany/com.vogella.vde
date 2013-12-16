@@ -52,6 +52,12 @@
       <feature id="org.eclipse.emf.sdk"/>
       <feature id="org.eclipse.nebula.widgets.nattable.core.feature"/>
       <feature id="org.eclipse.mylyn.context_feature"/>
+      <feature id="org.eclipse.mylyn.ide_feature"/>
+      <feature id="org.eclipse.mylyn.java_feature"/>
+      <feature id="org.eclipse.mylyn.pde_feature"/>
+      <feature id="org.eclipse.mylyn.bugzilla_feature"/>
+      <feature id="org.eclipse.mylyn.github.feature"/>
+      <feature id="org.eclipse.mylyn.git"/>
       <feature id="org.eclipse.nebula.widgets.nattable.core.source.feature"/>
       <feature id="org.eclipse.jdt.java8patch"/>
       <feature id="org.eclipse.pde.java8patch"/>
