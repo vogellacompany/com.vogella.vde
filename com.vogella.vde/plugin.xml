@@ -7,14 +7,14 @@
          point="org.eclipse.core.runtime.products">
       <product
             application="org.eclipse.ui.ide.workbench"
-            name="Voclipse">
+            name="Vogella Development Tools">
          <property
                name="preferenceCustomization"
                value="plugin_customization.ini">
          </property>
          <property
                name="appName"
-               value="Voclipse">
+               value="Vogella Development Tools">
          </property>
          <property
                name="aboutImage"
@@ -22,19 +22,15 @@
          </property>
          <property
                name="startupForegroundColor"
-               value="C8D5EA">
+               value="000000">
          </property>
          <property
                name="startupMessageRect"
-               value="7,220,441,20">
+               value="7,252,445,20">
          </property>
          <property
                name="startupProgressRect"
-               value="0,280,455,15">
-         </property>
-         <property
-               name="aboutText"
-               value="voclipse is a product of the vogella GmbH. It is based on the Eclipse SDK and adds a few more customization layers on top of it. See http://www.voclipse.com . product includes software developed by the&#x0A;Apache Software Foundation http://apache.org/">
+               value="5,275,445,15">
          </property>
          <!--
          <property
@@ -66,6 +62,10 @@
          <property
                name="applicationCSSResources" 
                value="platform:/plugin/org.eclipse.platform/images/"> 
+         </property>
+         <property
+               name="windowImages"
+               value="icons/png/16x16.png,icons/png/32x32.png,icons/png/48x48.png,icons/png/64x64.png,icons/png/128x128.png">
          </property>
       </product>
    </extension>

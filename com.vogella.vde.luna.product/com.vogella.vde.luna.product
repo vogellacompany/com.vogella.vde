@@ -3,6 +3,11 @@
 
 <product name="Vogella Development Tools" uid="com.vogella.vde.luna.product" id="com.vogella.vde.vdeProduct" application="org.eclipse.ui.ide.workbench" version="0.1.0.qualifier" useFeatures="true" includeLaunchers="true">
 
+
+   <aboutInfo>
+      <image path="/com.vogella.vde/icons/vogella.png"/>
+   </aboutInfo>
+
    <configIni use="default">
    </configIni>
 
@@ -10,7 +15,7 @@
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
 
-   <windowImages/>
+   <windowImages i16="/com.vogella.vde/icons/png/16x16.png" i32="/com.vogella.vde/icons/png/32x32.png" i48="/com.vogella.vde/icons/png/48x48.png" i64="/com.vogella.vde/icons/png/64x64.png" i128="/com.vogella.vde/icons/png/128x128.png"/>
 
    <splash
       location="com.vogella.vde"
@@ -24,8 +29,10 @@
       </win>
    </launcher>
 
+
    <vm>
    </vm>
+
 
    <plugins>
    </plugins>
@@ -53,5 +60,4 @@
       <property name="org.eclipse.update.reconcile" value="false" />
       <property name="osgi.bundles.defaultStartLevel" value="4" />
    </configurations>
-
 </product>
