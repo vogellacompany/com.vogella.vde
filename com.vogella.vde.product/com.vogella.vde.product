@@ -22,6 +22,8 @@
       startupMessageRect="7,252,445,20"
       startupForegroundColor="000000" />
    <launcher name="voclipse">
+      <linux icon="/com.vogella.vde/icons/launcher/xpm/256x256.XPM"/>
+      <macosx icon="/com.vogella.vde/icons/launcher/icns/icns.icns"/>
       <solaris/>
       <win useIco="false">
          <bmp/>
@@ -34,11 +36,10 @@
    <plugins>
    </plugins>
 
-     <features>
+   <features>
       <feature id="com.vogella.vde.feature"/>
       <feature id="org.eclipse.pde"/>
       <feature id="org.eclipse.egit"/>
-      <!--<feature id="org.eclipse.egit.import"/> -->
       <feature id="org.eclipse.jgit"/>
       <feature id="org.eclipse.help"/>
       <feature id="org.eclipse.wst.xml_ui.feature"/>
@@ -61,7 +62,7 @@
       <feature id="org.eclipse.egit"/>
       <feature id="org.eclipse.egit"/>
       <feature id="org.eclipse.e4.core.tools.feature"/>
-      <feature id="org.eclipse.e4.tools.css.editor.feature" />
+      <feature id="org.eclipse.e4.tools.css.editor.feature"/>
       <feature id="org.eclipse.e4.tools.css.spy.feature"/>
       <feature id="org.eclipse.e4.tools.event.spy.feature"/>
       <feature id="org.eclipse.e4.tools.orion.css.editor.feature"/>
