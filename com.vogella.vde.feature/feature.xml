@@ -20,28 +20,6 @@
    <requires>
       <import plugin="org.eclipse.platform"/>
       <import plugin="org.eclipse.equinox.app"/>
-      <import feature="org.eclipse.pde"/>
-      <import feature="org.eclipse.egit"/>
-      <import feature="org.eclipse.egit.import"/>
-      <import feature="org.eclipse.jgit"/>
-      <import feature="org.eclipse.help"/>
-      <import feature="org.eclipse.wst.xml_ui.feature"/>
-      <import feature="org.eclipse.swtbot"/>
-      <import feature="org.eclipse.swtbot.eclipse.gef"/>
-      <import feature="org.eclipse.swtbot.eclipse"/>
-      <import feature="org.eclipse.swtbot.forms"/>
-      <import feature="org.eclipse.swtbot.ide"/>
-      <import feature="org.eclipse.swtbot.generator.feature"/>
-      <import feature="org.eclipse.emf.sdk"/>
-      <import feature="org.eclipse.nebula.widgets.nattable.core.feature"/>
-      <import feature="org.eclipse.mylyn.context_feature"/>
-      <import feature="org.eclipse.nebula.widgets.nattable.core.source.feature"/>
-      <import feature="org.eclipse.jdt.java8patch"/>
-      <import feature="org.eclipse.pde.java8patch"/>
-      <import feature="org.eclipse.rcp.java8patch"/>
-      <import feature="org.eclipse.m2e.feature"/>
-      <import feature="com.tetrade.eclipse.plugins.easyshell.feature"/>
-      <import feature="org.eclipse.e4.rcp" version="1.3.0.v20131210-2136"/>
    </requires>
 
    <plugin
