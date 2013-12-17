@@ -212,6 +212,7 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
       <feature id="org.eclipse.e4.tools.css.spy.feature"/>
       <feature id="org.eclipse.e4.tools.event.spy.feature"/>
       <feature id="org.eclipse.e4.tools.orion.css.editor.feature"/>
+      <feature id="org.eclipse.pde.api.tools.ee.feature"/>
    </features>
 
    <configurations>
