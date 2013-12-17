@@ -65,7 +65,7 @@
          </property>
          <property
                name="windowImages"
-               value="icons/png/16x16.png,icons/png/32x32.png,icons/png/48x48.png,icons/png/64x64.png,icons/png/128x128.png,icons/png/256x256.png">
+               value="icons/png/16x16.png,icons/png/32x32.png,icons/png/48x48.png,icons/png/64x64.png,icons/png/128x128.png">
          </property>
          <property
                name="aboutText"

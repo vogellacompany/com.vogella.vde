@@ -35,7 +35,8 @@ Apache Software Foundation http://www.apache.org/
       <linux icon="/com.vogella.vde/icons/launcher/xpm/256x256.XPM"/>
       <macosx icon="/com.vogella.vde/icons/launcher/icns/icns.icns"/>
       <solaris/>
-      <win useIco="false">
+      <win useIco="true">
+         <ico path="/com.vogella.vde/icons/launcher/ico/voclipse.ico"/>
          <bmp/>
       </win>
    </launcher>
