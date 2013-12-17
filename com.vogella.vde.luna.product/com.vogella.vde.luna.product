@@ -179,7 +179,6 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
    <features>
       <feature id="com.vogella.vde.feature"/>
       <feature id="org.eclipse.pde"/>
-      <feature id="org.eclipse.egit"/>
       <feature id="org.eclipse.jgit"/>
       <feature id="org.eclipse.help"/>
       <feature id="org.eclipse.wst.xml_ui.feature"/>
@@ -205,7 +204,6 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
       <feature id="org.eclipse.m2e.feature"/>
       <feature id="com.tetrade.eclipse.plugins.easyshell.feature"/>
       <feature id="org.eclipse.e4.rcp"/>
-      <feature id="org.eclipse.egit"/>
       <feature id="org.eclipse.egit"/>
       <feature id="org.eclipse.e4.core.tools.feature"/>
       <feature id="org.eclipse.e4.tools.css.editor.feature"/>
