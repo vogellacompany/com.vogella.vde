@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="com.vogella.vde.perspective.java">
+         <view
+               id="org.eclipse.jdt.ui.PackageExplorer"
+               minimized="false"
+               ratio="0.20f"
+               relationship="left"
+               relative="org.eclipse.ui.editorss">
+         </view>
+         <view
+               id="org.eclipse.ui.console.ConsoleView"
+               minimized="false"
+               ratio="0.20f"
+               relationship="bottom"
+               relative="org.eclipse.ui.editorss">
+         </view>
+      </perspectiveExtension>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="com.vogella.vde.perspective.java.PerspectiveFactory1"
+            icon="icons/javaperspective_voclipse.png"
+            id="com.vogella.vde.perspective.java"
+            name="Java (voclipse)">
+      </perspective>
+   </extension>
+
+</plugin>
