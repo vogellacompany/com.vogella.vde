@@ -57,10 +57,51 @@
          point="org.eclipse.ui.perspectives">
       <perspective
             class="com.vogella.vde.perspective.java.PerspectiveFactory1"
-            icon="icons/javaperspective_voclipse.png"
+            icon="icons/voclipse_javaperspective.png"
             id="com.vogella.vde.perspective.java"
             name="Java (voclipse)">
       </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="com.vogella.vde.perspective.java.PerspectiveFactory1"
+            icon="icons/voclipse_debug_exc.png"
+            id="com.vogella.vde.perspective.javadebug"
+            name="Java (voclipse)">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="com.vogella.vde.perspective.javadebug">
+         <view
+               id="org.eclipse.ui.console.ConsoleView"
+               minimized="false"
+               ratio="0.80f"
+               relationship="bottom"
+               relative="org.eclipse.ui.editorss">
+         </view>
+         <view
+               id="org.eclipse.debug.ui.DebugView"
+               minimized="false"
+               relationship="stack"
+               relative="org.eclipse.ui.console.ConsoleView">
+         </view>
+         <view
+               id="org.eclipse.debug.ui.VariableView"
+               minimized="false"
+               ratio="0.7f"
+               relationship="right"
+               relative="org.eclipse.ui.editorss">
+         </view>
+         <view
+               id="org.eclipse.debug.ui.BreakpointView"
+               minimized="false"
+               relationship="stack"
+               relative="org.eclipse.debug.ui.VariableView">
+         </view>
+      </perspectiveExtension>
    </extension>
 
 </plugin>
