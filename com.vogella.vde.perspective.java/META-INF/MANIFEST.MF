@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Java
+Bundle-Name: Java perspective from voclipse
 Bundle-SymbolicName: com.vogella.vde.perspective.java;singleton:=true
 Bundle-Version: 0.1.0.qualifier
-Bundle-Vendor: VOGELLA
+Bundle-Vendor: vogella GmbH
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Require-Bundle: org.eclipse.ui
+Require-Bundle: org.eclipse.ui;bundle-version="3.106.0"
