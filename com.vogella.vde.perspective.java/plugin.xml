@@ -45,6 +45,12 @@
                relationship="stack"
                relative="org.eclipse.ui.console.ConsoleView">
          </view>
+         <view
+               id="org.eclipse.ui.views.ContentOutline"
+               minimized="false"
+               relationship="stack"
+               relative="org.eclipse.ui.console.ConsoleView">
+         </view>
       </perspectiveExtension>
    </extension>
    <extension
