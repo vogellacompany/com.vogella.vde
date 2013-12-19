@@ -8,16 +8,42 @@
          <view
                id="org.eclipse.jdt.ui.PackageExplorer"
                minimized="false"
-               ratio="0.20f"
+               ratio="0.30f"
                relationship="left"
                relative="org.eclipse.ui.editorss">
          </view>
          <view
                id="org.eclipse.ui.console.ConsoleView"
                minimized="false"
-               ratio="0.20f"
+               ratio="0.80f"
                relationship="bottom"
                relative="org.eclipse.ui.editorss">
+         </view>
+         <view
+               id="org.eclipse.egit.ui.StagingView"
+               minimized="false"
+               ratio="0.20f"
+               relationship="stack"
+               relative="org.eclipse.ui.console.ConsoleView">
+         </view>
+         <view
+               id="org.eclipse.egit.ui.RepositoriesView"
+               minimized="false"
+               ratio="0.8f"
+               relationship="bottom"
+               relative="org.eclipse.jdt.ui.PackageExplorer">
+         </view>
+         <view
+               id="org.eclipse.mylyn.tasks.ui.views.tasks"
+               minimized="false"
+               relationship="stack"
+               relative="org.eclipse.ui.console.ConsoleView">
+         </view>
+         <view
+               id="org.eclipse.ui.views.ProblemView"
+               minimized="false"
+               relationship="stack"
+               relative="org.eclipse.ui.console.ConsoleView">
          </view>
       </perspectiveExtension>
    </extension>
