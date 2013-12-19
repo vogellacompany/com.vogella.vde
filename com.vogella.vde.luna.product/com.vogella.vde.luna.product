@@ -21,6 +21,7 @@ Apache Software Foundation http://www.apache.org/
    </configIni>
 
    <launcherArgs>
+      <programArgs>-perspective com.vogella.vde.perspective.java</programArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
 
