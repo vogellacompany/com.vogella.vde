@@ -7,14 +7,14 @@
          point="org.eclipse.core.runtime.products">
       <product
             application="org.eclipse.ui.ide.workbench"
-            name="Vogella Development Tools">
+            name="vogella Development Tools">
          <property
                name="preferenceCustomization"
                value="plugin_customization.ini">
          </property>
          <property
                name="appName"
-               value="Vogella Development Tools">
+               value="vogella Development Tools">
          </property>
          <property
                name="aboutImage"
