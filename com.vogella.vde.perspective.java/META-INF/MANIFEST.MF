@@ -5,4 +5,4 @@ Bundle-SymbolicName: com.vogella.vde.perspective.java;singleton:=true
 Bundle-Version: 0.1.0.qualifier
 Bundle-Vendor: vogella GmbH
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Require-Bundle: org.eclipse.ui;bundle-version="3.106.0"
+Require-Bundle: org.eclipse.ui
