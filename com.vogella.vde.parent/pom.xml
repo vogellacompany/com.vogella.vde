@@ -51,7 +51,7 @@
 			<url>http://pluginbox.sourceforge.net</url>
 			<layout>p2</layout>
 		</repository>
-		
+
 		<repository>
 			<id>release-chrome-theme</id>
 			<url>https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite</url>
@@ -136,6 +136,24 @@
 					<layout>p2</layout>
 				</repository>
 			</repositories>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.eclipse.tycho</groupId>
+						<artifactId>target-platform-configuration</artifactId>
+						<version>${tycho-version}</version>
+						<configuration>
+							<target>
+								<artifact>
+									<groupId>com.vogella.vde</groupId>
+									<artifactId>com.vogella.vde.target</artifactId>
+									<version>0.1.0-SNAPSHOT</version>
+								</artifact>
+							</target>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
 		</profile>
 	</profiles>
 </project>

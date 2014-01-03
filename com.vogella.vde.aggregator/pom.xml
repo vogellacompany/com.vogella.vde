@@ -36,6 +36,7 @@
 			<id>luna</id>
 			<modules>
 				<module>../com.vogella.vde.luna.product</module>
+				<module>../com.vogella.vde.target</module>
 			</modules>
 		</profile>
 	</profiles>
