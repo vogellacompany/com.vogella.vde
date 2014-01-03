@@ -2,54 +2,54 @@
 <?pde version="3.8"?><target includeMode="feature" name="com.vogella.vde.target" sequenceNumber="7">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.sdk.feature.group" version="4.4.0.v20131231-1508"/>
-<unit id="org.eclipse.equinox.p2.rcp.feature.feature.group" version="1.2.0.v20131217-1522"/>
-<unit id="org.eclipse.e4.rcp.source.feature.group" version="1.3.0.v20131224-0957"/>
-<unit id="org.eclipse.jdt.source.feature.group" version="3.10.0.v20131231-1508"/>
-<unit id="org.eclipse.equinox.p2.core.feature.source.feature.group" version="1.2.100.v20131217-1522"/>
-<unit id="org.eclipse.equinox.p2.core.feature.feature.group" version="1.2.100.v20131217-1522"/>
-<unit id="org.eclipse.e4.rcp.feature.group" version="1.3.0.v20131224-0957"/>
-<unit id="org.eclipse.platform.feature.group" version="4.4.0.v20131231-1508"/>
-<unit id="org.eclipse.rcp.feature.group" version="4.4.0.v20131231-1508"/>
-<unit id="org.eclipse.cvs.source.feature.group" version="1.4.100.v20131231-1508"/>
-<unit id="org.eclipse.pde.feature.group" version="3.10.0.v20131231-1508"/>
-<unit id="org.eclipse.help.source.feature.group" version="2.0.0.v20131231-1508"/>
-<unit id="org.eclipse.cvs.feature.group" version="1.4.100.v20131231-1508"/>
-<unit id="org.eclipse.sdk.ide" version="4.4.0.2013-12-31_15-06-27"/>
-<unit id="org.eclipse.help.feature.group" version="2.0.0.v20131231-1508"/>
-<unit id="org.eclipse.rcp.source.feature.group" version="4.4.0.v20131231-1508"/>
-<unit id="org.eclipse.pde.source.feature.group" version="3.10.0.v20131231-1508"/>
-<unit id="org.eclipse.equinox.p2.extras.feature.source.feature.group" version="1.2.0.v20131217-1522"/>
-<unit id="org.eclipse.platform.source.feature.group" version="4.4.0.v20131231-1508"/>
-<unit id="org.eclipse.equinox.p2.extras.feature.feature.group" version="1.2.0.v20131217-1522"/>
-<unit id="org.eclipse.equinox.p2.user.ui.source.feature.group" version="2.2.0.v20131217-1522"/>
-<unit id="org.eclipse.equinox.p2.user.ui.feature.group" version="2.2.0.v20131217-1522"/>
-<unit id="org.eclipse.equinox.p2.rcp.feature.source.feature.group" version="1.2.0.v20131217-1522"/>
-<unit id="org.eclipse.rcp.configuration.feature.group" version="1.0.0.v20131029-1144"/>
-<unit id="org.eclipse.jdt.feature.group" version="3.10.0.v20131231-1508"/>
+<unit id="org.eclipse.sdk.feature.group"/>
+<unit id="org.eclipse.equinox.p2.rcp.feature.feature.group"/>
+<unit id="org.eclipse.e4.rcp.source.feature.group"/>
+<unit id="org.eclipse.jdt.source.feature.group"/>
+<unit id="org.eclipse.equinox.p2.core.feature.source.feature.group"/>
+<unit id="org.eclipse.equinox.p2.core.feature.feature.group"/>
+<unit id="org.eclipse.e4.rcp.feature.group"/>
+<unit id="org.eclipse.platform.feature.group"/>
+<unit id="org.eclipse.rcp.feature.group"/>
+<unit id="org.eclipse.cvs.source.feature.group"/>
+<unit id="org.eclipse.pde.feature.group"/>
+<unit id="org.eclipse.help.source.feature.group"/>
+<unit id="org.eclipse.cvs.feature.group"/>
+<unit id="org.eclipse.sdk.ide"/>
+<unit id="org.eclipse.help.feature.group"/>
+<unit id="org.eclipse.rcp.source.feature.group"/>
+<unit id="org.eclipse.pde.source.feature.group"/>
+<unit id="org.eclipse.equinox.p2.extras.feature.source.feature.group"/>
+<unit id="org.eclipse.platform.source.feature.group"/>
+<unit id="org.eclipse.equinox.p2.extras.feature.feature.group"/>
+<unit id="org.eclipse.equinox.p2.user.ui.source.feature.group"/>
+<unit id="org.eclipse.equinox.p2.user.ui.feature.group"/>
+<unit id="org.eclipse.equinox.p2.rcp.feature.source.feature.group"/>
+<unit id="org.eclipse.rcp.configuration.feature.group"/>
+<unit id="org.eclipse.jdt.feature.group"/>
 <repository location="http://download.vogella.com/p2/C-MASTER-eclipse.platform.releng.aggregator/lastStable/archive/eclipse.platform.releng.tychoeclipsebuilder/sdk/target/repository/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.emf.sdk.feature.group" version="2.10.0.v20131216-0403"/>
+<unit id="org.eclipse.emf.sdk.feature.group"/>
 <repository location="http://download.eclipse.org/releases/luna/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.nebula.widgets.nattable.core.feature.feature.group" version="1.0.1.201307031725"/>
-<unit id="org.eclipse.nebula.widgets.nattable.core.source.feature.feature.group" version="1.0.1.201307031725"/>
+<unit id="org.eclipse.nebula.widgets.nattable.core.feature.feature.group"/>
+<unit id="org.eclipse.nebula.widgets.nattable.core.source.feature.feature.group"/>
 <repository location="http://download.eclipse.org/nattable/releases/1.0.1/repository/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.swtbot.forms.feature.group" version="2.1.1.201307101628"/>
-<unit id="org.eclipse.swtbot.eclipse.gef.feature.group" version="2.1.1.201307101628"/>
-<unit id="org.eclipse.swtbot.eclipse.feature.group" version="2.1.1.201307101628"/>
-<unit id="org.eclipse.swtbot.generator.feature.feature.group" version="2.1.1.201307101628"/>
-<unit id="org.eclipse.swtbot.ide.feature.group" version="2.1.1.201307101628"/>
+<unit id="org.eclipse.swtbot.forms.feature.group"/>
+<unit id="org.eclipse.swtbot.eclipse.gef.feature.group"/>
+<unit id="org.eclipse.swtbot.eclipse.feature.group"/>
+<unit id="org.eclipse.swtbot.generator.feature.feature.group"/>
+<unit id="org.eclipse.swtbot.ide.feature.group"/>
 <repository location="http://download.eclipse.org/technology/swtbot/releases/latest/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.rcp.java8patch.feature.group" version="1.0.0.v20140103-0106_BETA_JAVA8"/>
-<unit id="org.eclipse.jdt.java8patch.feature.group" version="1.0.0.v20140103-0106_BETA_JAVA8"/>
-<unit id="org.eclipse.pde.java8patch.feature.group" version="1.0.0.v20140103-0106_BETA_JAVA8"/>
+<unit id="org.eclipse.rcp.java8patch.feature.group"/>
+<unit id="org.eclipse.jdt.java8patch.feature.group"/>
+<unit id="org.eclipse.pde.java8patch.feature.group"/>
 <repository location="http://dist.springsource.com/snapshot/TOOLS/java8/e43"/>
 </location>
 </locations>
