@@ -1,6 +1,6 @@
 instructions.configure=\
-addRepository(type:0,location:http${#58}//download.vogella.com/p2/HendrikStill-CBI-VDE/lastStable/archive/com.vogella.vde.product/target/repository/,name:vogella voclipse Update Site - Kepler);\
-addRepository(type:1,location:http${#58}//download.vogella.com/p2/HendrikStill-CBI-VDE/lastStable/archive/com.vogella.vde.product/target/repository/,name:vogella voclipse Update Site - Kepler);\
+addRepository(type:0,location:http${#58}//download.vogella.com/p2/C-MASTER-com.vogella.vde/lastStable/archive/com.vogella.vde.product/target/repository/,name:vogella voclipse Update Site - Kepler);\
+addRepository(type:1,location:http${#58}//download.vogella.com/p2/C-MASTER-com.vogella.vde/lastStable/archive/com.vogella.vde.product/target/repository/,name:vogella voclipse Update Site - Kepler);\
 addRepository(type:0,location:http${#58}//download.eclipse.org/releases/kepler/,name: Eclipe Kepler repository);\
 addRepository(type:1,location:http${#58}//download.eclipse.org/releases/kepler/,name: Eclipe Kepler repository);\
 addRepository(type:0,location:http${#58}//download.vogella.com/p2/C-MASTER-e4tools-master/lastSuccessful/archive/build/org.eclipse.e4.core.tools.update/target/repository/,name:e4 Tools from vogella.com);\
