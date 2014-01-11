@@ -59,8 +59,9 @@
 		</repository>
 		
 		<repository>
-			<id>release-preferencespy</id>
+			<id>release-preferencesspy</id>
 			<url>http://download.vogella.com/p2/C-MASTER-PreferencesSpy/workspace/com.vogella.vde.preferencesspy.repository/target/repository/</url>
+			<layout>p2</layout>
 		</repository>
 
 	</repositories>
