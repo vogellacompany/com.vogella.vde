@@ -57,6 +57,11 @@
 			<url>https://raw.github.com/jeeeyul/eclipse-themes/master/net.jeeeyul.eclipse.themes.updatesite</url>
 			<layout>p2</layout>
 		</repository>
+		
+		<repository>
+			<id>release-preferencespy</id>
+			<url>http://download.vogella.com/p2/C-MASTER-PreferencesSpy/workspace/com.vogella.vde.preferencesspy.repository/target/repository/</url>
+		</repository>
 
 	</repositories>
 
