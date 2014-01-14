@@ -59,6 +59,12 @@
 		</repository>
 		
 		<repository>
+			<id>orbit</id>
+			<url>http://download.eclipse.org/tools/orbit/downloads/drops/I20140114130914/repository/</url>
+			<layout>p2</layout>
+		</repository>
+		
+		<repository>
 			<id>release-preferencesspy</id>
 			<url>http://download.vogella.com/p2/C-MASTER-PreferencesSpy/lastSuccessful/archive/com.vogella.vde.preferencesspy.repository/target/repository/</url>
 			<layout>p2</layout>
