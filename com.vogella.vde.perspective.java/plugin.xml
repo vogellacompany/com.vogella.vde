@@ -51,6 +51,12 @@
                relationship="stack"
                relative="org.eclipse.ui.console.ConsoleView">
          </view>
+         <view
+               id="org.eclipse.team.ui.GenericHistoryView"
+               minimized="false"
+               relationship="stack"
+               relative="org.eclipse.ui.console.ConsoleView">
+         </view>
       </perspectiveExtension>
    </extension>
    <extension
