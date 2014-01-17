@@ -109,5 +109,30 @@
          </view>
       </perspectiveExtension>
    </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <view
+               id="org.eclipse.egit.ui.RepositoriesView"
+               minimized="false"
+               ratio="0.8f"
+               relationship="bottom"
+               relative="org.eclipse.jdt.ui.PackageExplorer">
+         </view>
+         <view
+               id="org.eclipse.ui.console.ConsoleView"
+               minimized="false"
+               relationship="stack"
+               relative="org.eclipse.ui.views.ProblemView">
+         </view>
+         <view
+               id="org.eclipse.egit.ui.StagingView"
+               minimized="false"
+               relationship="stack"
+               relative="org.eclipse.ui.views.ProblemView">
+         </view>
+      </perspectiveExtension>
+   </extension>
 
 </plugin>
