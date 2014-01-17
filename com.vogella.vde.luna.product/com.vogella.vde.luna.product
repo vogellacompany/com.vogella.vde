@@ -42,6 +42,7 @@ Apache Software Foundation http://www.apache.org/
       </win>
    </launcher>
 
+
    <vm>
    </vm>
 
@@ -198,7 +199,6 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
       <feature id="org.eclipse.mylyn.github.feature"/>
       <feature id="org.eclipse.mylyn.git"/>
       <feature id="org.eclipse.nebula.widgets.nattable.core.source.feature"/>
-      <feature id="org.eclipse.m2e.feature"/>
       <feature id="com.tetrade.eclipse.plugins.easyshell.feature"/>
       <feature id="org.eclipse.e4.rcp"/>
       <feature id="org.eclipse.egit"/>
