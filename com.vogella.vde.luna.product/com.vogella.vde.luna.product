@@ -42,7 +42,6 @@ Apache Software Foundation http://www.apache.org/
       </win>
    </launcher>
 
-
    <vm>
    </vm>
 
@@ -215,6 +214,7 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
       <feature id="org.eclipse.platform.source"/>
       <feature id="org.eclipse.rcp.source"/>
       <feature id="com.vogella.vde.preferencesspy.feature"/>
+      <feature id="org.eclipse.epp.mpc" version="1.2.1.I20131002-1306"/>
    </features>
 
    <configurations>
