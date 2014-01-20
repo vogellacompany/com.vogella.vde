@@ -70,6 +70,12 @@
 			<layout>p2</layout>
 		</repository>
 
+		<repository>
+			<id>freemarker</id>
+			<url>http://download.jboss.org/jbosstools/updates/stable/kepler</url>
+			<layout>p2</layout>
+		</repository>
+
 	</repositories>
 
 
