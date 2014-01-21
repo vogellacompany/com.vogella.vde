@@ -143,6 +143,13 @@
            id="org.eclipse.faq.examples.editor.MinimalEditor"
            name="Text Editor">
    </editor>
+     <editor
+           class="org.eclipse.ui.editors.text.TextEditor"
+           extensions="md"
+           icon="platform:/plugin/org.eclipse.ui.editors/$nl$/icons/full/obj16/file_obj.gif"
+           id="org.eclipse.faq.examples.editor.MinimalEditor"
+           name="Text Editor">
+   </editor>
    </extension>
 
 </plugin>
