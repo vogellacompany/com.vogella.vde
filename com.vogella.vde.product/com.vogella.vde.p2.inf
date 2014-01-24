@@ -13,3 +13,5 @@ addRepository(type:0,location:http${#58}//dist.springsource.com/snapshot/TOOLS/j
 addRepository(type:1,location:http${#58}//dist.springsource.com/snapshot/TOOLS/java8/e43,name: JDT Java 8 Beta - springsource.com);
 addRepository(type:0,location:http${#58}//download.vogella.com/p2/C-MASTER-PreferencesSpy/lastSuccessful/archive/com.vogella.vde.preferencesspy.repository/target/repository/,name: Voclipse PreferencesSpy);\
 addRepository(type:1,location:http${#58}//download.vogella.com/p2/C-MASTER-PreferencesSpy/lastSuccessful/archive/com.vogella.vde.preferencesspy.repository/target/repository/,name: Voclipse PreferencesSpy);
+addRepository(type:0,location:http${#58}//download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/repository/,name: Eclipse Orbit);\
+addRepository(type:1,location:http${#58}//download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/repository/,name: Eclipse Orbit);
