@@ -75,6 +75,11 @@
 			<url>http://download.jboss.org/jbosstools/updates/stable/kepler</url>
 			<layout>p2</layout>
 		</repository>
+		<repository>
+			<id>eclipse-color-theme</id>
+			<url>http://eclipse-color-theme.github.io/update/</url>
+			<layout>p2</layout>
+		</repository>
 
 	</repositories>
 
