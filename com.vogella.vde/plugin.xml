@@ -51,7 +51,7 @@
          </property>
          <property
 				name="cssTheme"
-				value="org.eclipse.e4.ui.css.theme.e4_default">
+				value="com.github.eclipseuitheme.themes.moonrise-ui.standalone">
 		  </property>
          <!--
          <property 
