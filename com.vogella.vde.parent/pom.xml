@@ -74,6 +74,11 @@
 			<url>http://eclipse-color-theme.github.io/update/</url>
 			<layout>p2</layout>
 		</repository>
+		<repository>
+			<id>moonrise-ui-theme</id>
+			<url>https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite</url>
+			<layout>p2</layout>
+		</repository>
 
 	</repositories>
 

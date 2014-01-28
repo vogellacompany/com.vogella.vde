@@ -15,5 +15,5 @@ addRepository(type:0,location:http${#58}//download.vogella.com/p2/C-MASTER-Prefe
 addRepository(type:1,location:http${#58}//download.vogella.com/p2/C-MASTER-PreferencesSpy/lastSuccessful/archive/com.vogella.vde.preferencesspy.repository/target/repository/,name: Voclipse PreferencesSpy);
 addRepository(type:0,location:http${#58}//download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/repository/,name: Eclipse Orbit);\
 addRepository(type:1,location:http${#58}//download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/repository/,name: Eclipse Orbit);
-addRepository(type:0,location:http${#58}//download.vogella.com/p2/HendrikStill-VogellaTheme/builds/lastStableBuild/archive/com.vogella.voclipse.theme.p2updatesite/target/repository/,name: Voclipse Theme);\
-addRepository(type:1,location:http${#58}//download.vogella.com/p2/HendrikStill-VogellaTheme/builds/lastStableBuild/archive/com.vogella.voclipse.theme.p2updatesite/target/repository/,name: Voclipse Theme);
+addRepository(type:0,location:https${#58}//raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite,name: MoonRise UI Theme);\
+addRepository(type:1,location:https${#58}//raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite,name: MoonRise UI Theme);;
