@@ -21,7 +21,7 @@ Apache Software Foundation http://www.apache.org/
    </configIni>
 
    <launcherArgs>
-      <programArgs>-perspective com.vogella.vde.perspective.java -showLocation</programArgs>
+      <programArgs>-showLocation</programArgs>
       <vmArgs>-Xms512m
 -Xmx1024m
 -XX:+UseParallelGC
