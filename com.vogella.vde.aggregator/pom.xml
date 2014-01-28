@@ -35,6 +35,7 @@
 		<profile>
 			<id>luna</id>
 			<modules>
+				<module>../com.vogella.vde.testing.feature</module>
 				<module>../com.vogella.vde.luna.product</module>
 			</modules>
 		</profile>
