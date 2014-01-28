@@ -41,12 +41,6 @@
 		</repository>
 
 		<repository>
-			<id>unstable-jdt-java8</id>
-			<url>http://dist.springsource.com/snapshot/TOOLS/java8/e43</url>
-			<layout>p2</layout>
-		</repository>
-
-		<repository>
 			<id>release-easyshell</id>
 			<url>http://pluginbox.sourceforge.net</url>
 			<layout>p2</layout>
