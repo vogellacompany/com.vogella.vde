@@ -1,12 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?compositeArtifactRepository version='1.0.0'?>
-<repository name='&quot;Eclipse Project Test Site&quot;'
+<repository name='&quot;Voclipse Composit Updatesite&quot;'
     type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
   <properties size='1'>
     <property name='p2.timestamp' value='1243822502440'/>
   </properties>
   <children size='1'>
-    <child location='http://download.eclipse.org/egit/updates'/>
-    <child location='http://download.eclipse.org/tools/mylyn/update/e3.4/'/>
+    <child location='http://download.vogella.com/p2/C-MASTER-eclipse.platform.releng.aggregator/lastStable/archive/eclipse.platform.releng.tychoeclipsebuilder/sdk/target/repository/'/>
+    <child location='http://download.eclipse.org/releases/luna/'/>
+    <child location='http://download.vogella.com/p2/C-MASTER-e4tools-master/lastSuccessful/archive/build/org.eclipse.e4.core.tools.update/target/repository/'/>
+    <child location='http://download.eclipse.org/technology/swtbot/releases/latest/'/>
+    <child location='http://download.eclipse.org/nattable/releases/1.0.1/repository/'/>
+    <child location='http://pluginbox.sourceforge.net'/>
+    <child location='http://download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/repository/'/>
+    <child location='http://download.vogella.com/p2/C-MASTER-PreferencesSpy/lastSuccessful/archive/com.vogella.vde.preferencesspy.repository/target/repository/'/>
+    <child location='http://download.jboss.org/jbosstools/updates/stable/kepler'/>
+    <child location='http://eclipse-color-theme.github.io/update/'/>
+    <child location='https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite'/>
   </children>
 </repository>

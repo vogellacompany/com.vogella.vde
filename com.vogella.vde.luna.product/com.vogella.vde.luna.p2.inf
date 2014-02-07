@@ -1,19 +1,3 @@
 instructions.configure=\
-addRepository(type:0,location:http${#58}//download.vogella.com/p2/C-MASTER-com.vogella.vde.luna/lastStable/archive/com.vogella.vde.luna.product/target/repository/,name:vogella voclipse Update Site - Luna);\
-addRepository(type:1,location:http${#58}//download.vogella.com/p2/C-MASTER-com.vogella.vde.luna/lastStable/archive/com.vogella.vde.luna.product/target/repository/,name:vogella voclipse Update Site - Luna);\
-addRepository(type:0,location:http${#58}//download.vogella.com/p2/C-MASTER-eclipse.platform.releng.aggregator/lastStable/archive/eclipse.platform.releng.tychoeclipsebuilder/sdk/target/repository/,name: vogella CBI Eclipe Luna repository);\
-addRepository(type:1,location:http${#58}//download.vogella.com/p2/C-MASTER-eclipse.platform.releng.aggregator/lastStable/archive/eclipse.platform.releng.tychoeclipsebuilder/sdk/target/repository/,name: vogella CBI Eclipe Luna repository);\
-addRepository(type:0,location:http${#58}//download.eclipse.org/releases/luna/,name: Eclipe Luna repository - eclipse.org);\
-addRepository(type:1,location:http${#58}//download.eclipse.org/releases/luna/,name: Eclipe Luna repository - eclipse.org);\
-addRepository(type:0,location:http${#58}//download.vogella.com/p2/C-MASTER-e4tools-master/lastSuccessful/archive/build/org.eclipse.e4.core.tools.update/target/repository/,name:e4 Tools from vogella.com);\
-addRepository(type:1,location:http${#58}//download.vogella.com/p2/C-MASTER-e4tools-master/lastSuccessful/archive/build/org.eclipse.e4.core.tools.update/target/repository/,name:e4 Tools from vogella.com);\
-addRepository(type:0,location:http${#58}//download.eclipse.org/technology/swtbot/releases/latest/,name:SWTBot - eclipse.org);\
-addRepository(type:1,location:http${#58}//download.eclipse.org/technology/swtbot/releases/latest/,name:SWTBot - eclipse.org);\
-addRepository(type:0,location:http${#58}//download.eclipse.org/nattable/releases/1.0.1/repository/,name:Nebular - eclipse.org);\
-addRepository(type:1,location:http${#58}//download.eclipse.org/nattable/releases/1.0.1/repository/,name:Nebular - eclipse.org);\
-addRepository(type:0,location:http${#58}//download.vogella.com/p2/C-MASTER-PreferencesSpy/lastSuccessful/archive/com.vogella.vde.preferencesspy.repository/target/repository/,name: Voclipse PreferencesSpy);\
-addRepository(type:1,location:http${#58}//download.vogella.com/p2/C-MASTER-PreferencesSpy/lastSuccessful/archive/com.vogella.vde.preferencesspy.repository/target/repository/,name: Voclipse PreferencesSpy);
-addRepository(type:0,location:http${#58}//download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/repository/,name: Eclipse Orbit);\
-addRepository(type:1,location:http${#58}//download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/repository/,name: Eclipse Orbit);
-addRepository(type:0,location:https${#58}//raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite,name: MoonRise UI Theme);\
-addRepository(type:1,location:https${#58}//raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite,name: MoonRise UI Theme);;
+addRepository(type:0,location:https${#58}//raw2.github.com/vogellacompany/com.vogella.vde/master/com.vogella.vde.luna.updatesite,name: Voclipse Composit Updatesite);\
+addRepository(type:1,location:https${#58}//raw2.github.com/vogellacompany/com.vogella.vde/master/com.vogella.vde.luna.updatesite,name: Voclipse Composit Updatesite);;
