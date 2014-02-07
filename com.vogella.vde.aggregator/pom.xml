@@ -24,16 +24,8 @@
 
 	<profiles>
 		<profile>
-			<id>kepler</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-			<modules>
-				<module>../com.vogella.vde.product</module>
-			</modules>
-		</profile>
-		<profile>
 			<id>luna</id>
+				<activeByDefault>true</activeByDefault>
 			<modules>
 				<module>../com.vogella.vde.luna.product</module>
 			</modules>

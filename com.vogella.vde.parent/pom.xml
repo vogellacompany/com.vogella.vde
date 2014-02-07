@@ -130,22 +130,11 @@
 
 	<profiles>
 		<profile>
-			<id>kepler</id>
+			<id>luna</id>
 			<!-- inherits profile from aggregator -->
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
-			<repositories>
-				<repository>
-					<id>eclipse-kepler</id>
-					<url>http://download.eclipse.org/releases/kepler/</url>
-					<layout>p2</layout>
-				</repository>
-			</repositories>
-		</profile>
-		<profile>
-			<id>luna</id>
-			<!-- inherits profile from aggregator -->
 			<repositories>
 				<repository>
 					<id>cbi-luna</id>
