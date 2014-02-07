@@ -25,7 +25,9 @@
 	<profiles>
 		<profile>
 			<id>luna</id>
+			<activation>
 				<activeByDefault>true</activeByDefault>
+			</activation>
 			<modules>
 				<module>../com.vogella.vde.luna.product</module>
 			</modules>
