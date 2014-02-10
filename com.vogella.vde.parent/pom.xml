@@ -16,7 +16,7 @@
 	<repositories>
 		<repository>
 			<id>voclipse-composit-updatesite</id>
-			<url>file://${project.build.directory}/../../com.vogella.vde.luna.updatesite/</url>
+			<url>https://raw2.github.com/vogellacompany/com.vogella.vde/master/com.vogella.vde.luna.updatesite/</url>
 			<layout>p2</layout>
 		</repository>
 	</repositories>
