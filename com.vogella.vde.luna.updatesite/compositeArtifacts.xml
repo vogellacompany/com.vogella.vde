@@ -14,8 +14,6 @@
     <child location='http://pluginbox.sourceforge.net'/>
     <child location='http://download.eclipse.org/tools/orbit/downloads/drops/R20130827064939/repository/'/>
     <child location='http://download.vogella.com/p2/C-MASTER-PreferencesSpy/lastSuccessful/archive/com.vogella.vde.preferencesspy.repository/target/repository/'/>
-    <child location='http://download.jboss.org/jbosstools/updates/stable/kepler'/>
     <child location='http://eclipse-color-theme.github.io/update/'/>
-    <child location='https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite'/>
   </children>
 </repository>
