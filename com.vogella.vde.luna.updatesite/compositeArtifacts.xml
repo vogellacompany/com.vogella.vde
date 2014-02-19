@@ -7,10 +7,8 @@
   </properties>
   <children size='1'>
     <child location='http://download.vogella.com/p2/C-MASTER-eclipse.platform.releng.aggregator/lastStable/archive/eclipse.platform.releng.tychoeclipsebuilder/sdk/target/repository/'/>
-    
     <child location='http://download.vogella.com/p2/C-MASTER-e4tools-master/lastSuccessful/archive/build/org.eclipse.e4.core.tools.update/target/repository/'/>
     <child location='http://download.vogella.com/p2/C-MASTER-PreferencesSpy/lastSuccessful/archive/com.vogella.vde.preferencesspy.repository/target/repository/'/>
-    <child location='http://download.eclipse.org/eclipse/updates/4.4-I-builds/ '/>
     <child location='http://download.eclipse.org/technology/swtbot/releases/latest/'/>
     <child location='http://pluginbox.sourceforge.net'/>
     <child location='http://eclipse-color-theme.github.io/update/'/>
