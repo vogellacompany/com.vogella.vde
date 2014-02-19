@@ -12,14 +12,117 @@
 	<properties>
 		<tycho-version>0.19.0</tycho-version>
 	</properties>
+	 <repositories> <repository> <id>voclipse-composit-updatesite</id> <url>https://raw2.github.com/vogellacompany/com.vogella.vde/master/com.vogella.vde.luna.updatesite/</url> 
+		<layout>p2</layout> </repository> </repositories> -->
+<!--
+For local testing please do not remove
 
 	<repositories>
+
+		
+
 		<repository>
-			<id>voclipse-composit-updatesite</id>
-			<url>file://${project.build.directory}/../../com.vogella.vde.luna.updatesite/</url>
+			<id>EMF</id>
+			<url>http://download.eclipse.org/modeling/emf/emf/updates/releases/</url>
 			<layout>p2</layout>
 		</repository>
+
+		<repository>
+			<id>WTP</id>
+			<url>http://download.eclipse.org/webtools/updates</url>
+			<layout>p2</layout>
+		</repository>
+
+		<repository>
+			<id>Mylyn</id>
+			<url>http://download.eclipse.org/mylyn/releases/latest</url>
+			<layout>p2</layout>
+		</repository>
+
+		<repository>
+			<id>Egit Github</id>
+			<url>http://download.eclipse.org/egit/github/updates</url>
+			<layout>p2</layout>
+		</repository>
+
+		<repository>
+			<id>Egit</id>
+			<url>http://download.eclipse.org/egit/updates</url>
+			<layout>p2</layout>
+		</repository>
+
+		<repository>
+			<id>Marketplace client</id>
+			<url>http://download.eclipse.org/mpc/kepler/</url>
+			<layout>p2</layout>
+		</repository>
+		
+		<repository>
+			<id>ECF</id>
+			<url>http://download.eclipse.org/rt/ecf/int3.8/3.8.0/site.p2</url>
+			<layout>p2</layout>
+		</repository>
+		
+		
+		<repository>
+			<id>GEF</id>
+			<url>http://download.eclipse.org/tools/gef/updates/releases/</url>
+			<layout>p2</layout>
+		</repository>
+		
+		<repository>
+			<id>Orbit</id>
+			<url>http://download.eclipse.org/tools/orbit/downloads/drops/R20140114142710/repository/</url>
+			<layout>p2</layout>
+		</repository>
+		
+		
+		<repository>
+			<id>Orbit Old</id>
+			<url>http://download.eclipse.org/tools/orbit/downloads/drops/R20130118183705/repository/</url>
+			<layout>p2</layout>
+		</repository>
+		
+		<repository>
+			<id>WindowBuilder</id>
+			<url>http://download.eclipse.org/windowbuilder/WB/integration/4.4/</url>
+			<layout>p2</layout>
+		</repository>
+
+
+		<repository>
+			<id>eclipse-e4-tools</id>
+			<url>http://download.vogella.com/p2/C-MASTER-e4tools-master/lastSuccessful/archive/build/org.eclipse.e4.core.tools.update/target/repository/</url>
+			<layout>p2</layout>
+		</repository>
+
+		<repository>
+			<id>relase-swtbot</id>
+			<url>http://download.eclipse.org/technology/swtbot/releases/latest/</url>
+			<layout>p2</layout>
+		</repository>
+
+
+		<repository>
+			<id>release-easyshell</id>
+			<url>http://pluginbox.sourceforge.net</url>
+			<layout>p2</layout>
+		</repository>
+
+		<repository>
+			<id>release-preferencesspy</id>
+			<url>http://download.vogella.com/p2/C-MASTER-PreferencesSpy/lastSuccessful/archive/com.vogella.vde.preferencesspy.repository/target/repository/</url>
+			<layout>p2</layout>
+		</repository>
+
+		<repository>
+			<id>eclipse-color-theme</id>
+			<url>http://eclipse-color-theme.github.io/update/</url>
+			<layout>p2</layout>
+		</repository>
+
 	</repositories>
+	-->
 
 
 	<build>
