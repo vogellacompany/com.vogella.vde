@@ -6,10 +6,10 @@
    <aboutInfo>
       <image path="/com.vogella.vde/icons/vogella.png"/>
       <text>
-         voclipse is a product of the vogella GmbH. It is based on the Eclipse SDK and adds a few more customization laers on top of it.
+         voclipse is a product of the vogella GmbH. It is based on the Eclipse SDK and adds a few more customization layers on top of it.
 See http://www.voclipse.com
 
-(c) Copyright Eclipse contributors and others 2000, 2013.  All rights reserved.
+(c) Copyright Eclipse contributors and others 2000, 2014. All rights reserved.
 Visit http://www.eclipse.org/platform
 
 This product includes software developed by the

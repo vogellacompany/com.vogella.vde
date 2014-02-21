@@ -69,7 +69,7 @@
          </property>
          <property
                name="aboutText"
-               value="voclipse is a product of the vogella GmbH. It is based on the Eclipse SDK and adds a few more customization laers on top of it.&#x0A;Build id: {0}&#x0A;See http://www.voclipse.com&#x0A;&#x0A;(c) Copyright Eclipse contributors and others 2000, 2013.  All rights reserved.&#x0A;Visit http://www.eclipse.org/platform&#x0A;&#x0A;This product includes software developed by the&#x0A;Apache Software Foundation http://www.apache.org/">
+               value="voclipse is a product of the vogella GmbH. It is based on the Eclipse SDK and adds a few more customization layers on top of it.&#x0A;Build id: {0}&#x0A;See http://www.voclipse.com&#x0A;&#x0A;(c) Copyright Eclipse contributors and others 2000, 2014. All rights reserved.&#x0A;Visit http://www.eclipse.org/platform&#x0A;&#x0A;This product includes software developed by the&#x0A;Apache Software Foundation http://www.apache.org/">
          </property>
       </product>
    </extension>
