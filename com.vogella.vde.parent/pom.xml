@@ -12,13 +12,6 @@
 	<properties>
 		<tycho-version>0.19.0</tycho-version>
 	</properties>
-	 <repositories> 
-	 	<repository> 
-	 		<id>voclipse-composit-updatesite</id> 
-	 		<url>https://raw2.github.com/vogellacompany/com.vogella.vde/master/com.vogella.vde.luna.updatesite/</url> 
-			<layout>p2</layout> 
-		</repository> 
-	</repositories> 
 		
 <!--
 For local testing please do not remove
@@ -183,6 +176,13 @@ For local testing please do not remove
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
+			<repositories> 
+			 	<repository> 
+			 		<id>voclipse-composit-updatesite</id> 
+			 		<url>https://raw2.github.com/vogellacompany/com.vogella.vde/master/com.vogella.vde.luna.updatesite/</url> 
+					<layout>p2</layout> 
+				</repository> 
+			</repositories> 
 			<!-- Placeholder for wither release specific changes -->
 		</profile>
 	</profiles>
