@@ -185,7 +185,7 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
    <features>
       <feature id="com.vogella.vde.feature"/>
       <feature id="org.eclipse.pde" installMode="root"/>
-      <feature id="org.eclipse.jgit installMode="root"/>
+      <feature id="org.eclipse.jgit" installMode="root"/>
       <feature id="org.eclipse.help" installMode="root"/>
       <feature id="org.eclipse.wst.xml_ui.feature"/>
       <feature id="org.eclipse.swtbot" installMode="root"/>
