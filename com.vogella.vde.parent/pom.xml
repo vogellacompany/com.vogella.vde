@@ -13,7 +13,15 @@
 		<tycho-version>0.20.0-SNAPSHOT</tycho-version>
 	</properties>
 
+	<pluginRepositories>
+		<pluginRepository>
+			<id>tycho-snapshots</id>
+			<url>https://oss.sonatype.org/content/groups/public/</url>
+		</pluginRepository>
+	</pluginRepositories>
+
 	<repositories>
+
 		<repository>
 			<id>voclipse-composit-updatesite</id>
 			<url>https://raw2.github.com/vogellacompany/com.vogella.vde/master/com.vogella.vde.luna.updatesite/</url>
