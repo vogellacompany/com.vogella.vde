@@ -14,5 +14,6 @@
 	    <child location='http://pluginbox.sourceforge.net'/>
 	    <child location='http://eclipse-color-theme.github.io/update/'/>
 	    <child location='http://download.eclipse.org/releases/luna/'/>
+	    <child location='http://dist.springsource.com/release/TOOLS/eclipse-integration-commons/'/>
 	</children>
 </repository>
