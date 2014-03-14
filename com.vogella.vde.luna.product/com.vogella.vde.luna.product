@@ -22,15 +22,15 @@ Apache Software Foundation http://www.apache.org/
 
    <launcherArgs>
       <programArgs>-showLocation</programArgs>
-      <vmArgs>-Xms512m
+      <vmArgsLin>-Xms512m
 -Xmx1024m
 -XX:+UseParallelGC
 -XX:PermSize=256M
--XX:MaxPermSize=512M</vmArgs>
+-XX:MaxPermSize=512M</vmArgsLin>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
 
-   <windowImages i16="/com.vogella.vde/icons/png/16x16.png" i32="/com.vogella.vde/icons/png/32x32.png" i48="/com.vogella.vde/icons/png/48x48.png" i64="/com.vogella.vde/icons/png/64x64.png" i128="/com.vogella.vde/icons/png/128x128.png" i256="/com.vogella.vde/icons/png/256x256.png"/>
+   <windowImages i16="/com.vogella.vde/icons/png/16x16.png" i32="/com.vogella.vde/icons/png/32x32.png" i48="/com.vogella.vde/icons/png/48x48.png" i64="/com.vogella.vde/icons/png/64x64.png" i128="/com.vogella.vde/icons/png/128x128.png"/>
 
    <splash
       location="com.vogella.vde"
@@ -184,31 +184,31 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
 
    <features>
       <feature id="com.vogella.vde.feature"/>
-      <feature id="org.eclipse.pde" installMode="root"/>
-      <feature id="org.eclipse.jgit" installMode="root"/>
-      <feature id="org.eclipse.help" installMode="root"/>
+      <feature id="org.eclipse.pde"/>
+      <feature id="org.eclipse.jgit"/>
+      <feature id="org.eclipse.help"/>
       <feature id="org.eclipse.wst.xml_ui.feature"/>
-      <feature id="org.eclipse.swtbot" installMode="root"/>
-      <feature id="org.eclipse.swtbot.eclipse.gef" installMode="root"/>
-      <feature id="org.eclipse.swtbot.eclipse" installMode="root"/>
-      <feature id="org.eclipse.swtbot.forms" installMode="root"/>
-      <feature id="org.eclipse.swtbot.ide" installMode="root"/>
-      <feature id="org.eclipse.swtbot.generator.feature" installMode="root"/>
-      <feature id="org.eclipse.emf.sdk" installMode="root"/>
-      <feature id="org.eclipse.mylyn.context_feature" installMode="root"/>
+      <feature id="org.eclipse.swtbot"/>
+      <feature id="org.eclipse.swtbot.eclipse.gef"/>
+      <feature id="org.eclipse.swtbot.eclipse"/>
+      <feature id="org.eclipse.swtbot.forms"/>
+      <feature id="org.eclipse.swtbot.ide"/>
+      <feature id="org.eclipse.swtbot.generator.feature"/>
+      <feature id="org.eclipse.emf.sdk"/>
+      <feature id="org.eclipse.mylyn.context_feature"/>
       <feature id="org.eclipse.mylyn.java_feature"/>
       <feature id="org.eclipse.mylyn.pde_feature"/>
-      <feature id="org.eclipse.mylyn.bugzilla_feature" installMode="root"/>
-      <feature id="org.eclipse.mylyn.github.feature" installMode="root"/>
-      <feature id="org.eclipse.mylyn.git" installMode="root"/>
-      <feature id="com.tetrade.eclipse.plugins.easyshell.feature" installMode="root"/>
+      <feature id="org.eclipse.mylyn.bugzilla_feature"/>
+      <feature id="org.eclipse.mylyn.github.feature"/>
+      <feature id="org.eclipse.mylyn.git"/>
+      <feature id="com.tetrade.eclipse.plugins.easyshell.feature"/>
       <feature id="org.eclipse.e4.rcp"/>
-      <feature id="org.eclipse.egit" installMode="root"/>
+      <feature id="org.eclipse.egit"/>
       <feature id="org.eclipse.e4.core.tools.feature"/>
       <feature id="org.eclipse.e4.tools.css.spy.feature"/>
       <feature id="org.eclipse.e4.tools.event.spy.feature"/>
       <feature id="org.eclipse.pde.api.tools.ee.feature"/>
-      <feature id="org.eclipse.wb.rcp.feature" installMode="root"/>
+      <feature id="org.eclipse.wb.rcp.feature"/>
       <feature id="org.eclipse.e4.rcp.source"/>
       <feature id="org.eclipse.egit.source"/>
       <feature id="org.eclipse.emf.source"/>
@@ -217,8 +217,8 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
       <feature id="org.eclipse.platform.source"/>
       <feature id="org.eclipse.rcp.source"/>
       <feature id="com.vogella.vde.preferencesspy.feature"/>
-      <feature id="org.eclipse.epp.mpc" installMode="root"/>
-      <feature id="com.github.eclipsecolortheme.feature" installMode="root"/>
+      <feature id="org.eclipse.epp.mpc"/>
+      <feature id="com.github.eclipsecolortheme.feature"/>
    </features>
 
    <configurations>
