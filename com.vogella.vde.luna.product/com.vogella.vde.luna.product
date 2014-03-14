@@ -21,16 +21,19 @@ Apache Software Foundation http://www.apache.org/
    </configIni>
 
    <launcherArgs>
-      <programArgs>-showLocation</programArgs>
+      <programArgs>-showLocation
+      </programArgs>
       <vmArgsLin>-Xms512m
 -Xmx1024m
 -XX:+UseParallelGC
 -XX:PermSize=256M
--XX:MaxPermSize=512M</vmArgsLin>
-      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+-XX:MaxPermSize=512M
+      </vmArgsLin>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
    </launcherArgs>
 
-   <windowImages i16="/com.vogella.vde/icons/png/16x16.png" i32="/com.vogella.vde/icons/png/32x32.png" i48="/com.vogella.vde/icons/png/48x48.png" i64="/com.vogella.vde/icons/png/64x64.png" i128="/com.vogella.vde/icons/png/128x128.png"/>
+   <windowImages i16="/com.vogella.vde/icons/png/16x16.png" i32="/com.vogella.vde/icons/png/32x32.png" i48="/com.vogella.vde/icons/png/48x48.png" i64="/com.vogella.vde/icons/png/64x64.png" i128="/com.vogella.vde/icons/png/128x128.png" i256="/com.vogella.vde/icons/png/256x256.png"/>
 
    <splash
       location="com.vogella.vde"
@@ -46,6 +49,7 @@ Apache Software Foundation http://www.apache.org/
          <bmp/>
       </win>
    </launcher>
+
 
    <vm>
    </vm>
