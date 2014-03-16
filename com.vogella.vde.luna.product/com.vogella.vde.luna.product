@@ -6,7 +6,7 @@
    <aboutInfo>
       <image path="/com.vogella.vde/icons/vogella.png"/>
       <text>
-         voclipse is a product of the vogella GmbH. It is based on the Eclipse SDK and adds a few more customization layers on top of it.
+voclipse is a product of the vogella GmbH. It is based on the Eclipse SDK and adds a few more customization layers on top of it.
 See http://www.voclipse.com
 
 (c) Copyright Eclipse contributors and others 2000, 2014. All rights reserved.
@@ -23,11 +23,7 @@ Apache Software Foundation http://www.apache.org/
    <launcherArgs>
       <programArgs>-showLocation
       </programArgs>
-      <vmArgsLin>-Xms512m
--Xmx1024m
--XX:+UseParallelGC
--XX:PermSize=256M
--XX:MaxPermSize=512M
+      <vmArgsLin>-Xms512m -Xmx1024m -XX:+UseParallelGC -XX:PermSize=256M -XX:MaxPermSize=512M
       </vmArgsLin>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
@@ -39,7 +35,7 @@ Apache Software Foundation http://www.apache.org/
       location="com.vogella.vde"
       startupProgressRect="5,275,445,15"
       startupMessageRect="7,252,445,20"
-      startupForegroundColor="000000" />
+      startupForegroundColor="FFFFFF" />
    <launcher name="voclipse">
       <linux icon="com.vogella.vde/icons/launcher/xpm/256x256.xpm"/>
       <macosx icon="com.vogella.vde/icons/launcher/icns/icns.icns"/>
