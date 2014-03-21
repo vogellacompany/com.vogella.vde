@@ -19,6 +19,7 @@
 	<modules>
 		<module>../com.vogella.vde</module>
 		<module>../com.vogella.vde.feature</module>
+		<module>../com.vogella.vde.testrequirements.feature</module>
 		<module>../com.vogella.vde.perspective.java</module>
 	</modules>
 
