@@ -1,7 +1,7 @@
 com.vogella.vde
 ===============
 
-vogella Development Environment a. k. a. voclipse
+vogella development environment a. k. a. voclipse
 
 
 Luna
